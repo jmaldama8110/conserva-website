@@ -107,6 +107,39 @@ img {
 }
 
 
+/*  Productos -pagina inicio */
+
+.promotor {
+    display: flex;
+    margin-left: 3em;
+}
+.promotor-logo,
+.promotor-parrafo {
+    width: 40%;
+}
+
+.promotor-parrafo {
+    text-align: center;
+}
+.promotor-parrafo #p1 {
+    font-size: var(--fs-h3);
+    margin-bottom: 2em;
+}
+.promotor-parrafo #p2 {
+    font-size: var(--fs-h3);
+    margin: 0;
+}
+.promotor-parrafo #p3 {
+    font-size: var(--fs-h2);
+    margin: 0;
+}
+span {
+    font-weight: var(--fw-bold);
+}
+
+/* fin - productos -pagina inicio */
+
+
 /* Footer */
 .footer {
     background-color: var(--clr-gris);
