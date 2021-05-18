@@ -23,6 +23,11 @@ Charmonman normal
     --clr-gris: #E6E6E6;
     --clr-azul: #14179A;
     --clr-rosa: #EC1E79;
+    --clr-mujerespalabra: #EB6D49;
+    --clr-conserva-tactiva: #F7921D;
+    --clr-credito-individual: #ACC713;
+    --clr-seguros: #662C91;
+
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
     --fs-h3: 1.25rem;
@@ -111,11 +116,16 @@ img {
 
 .promotor {
     display: flex;
-    margin-left: 3em;
+    margin: 0 8em 0 8em;
+}
+.promotor img {
+    height: 400px;
+    width: auto;
 }
 .promotor-logo,
 .promotor-parrafo {
-    width: 40%;
+    width: 50%;
+    
 }
 
 .promotor-parrafo {
@@ -137,7 +147,48 @@ span {
     font-weight: var(--fw-bold);
 }
 
+
+.mujeresdepalabra {
+    position: relative;
+    margin-top: -100px;
+    
+}
+.mujeresdepalabra #fondo{
+    height: 300px;
+    width: auto;
+}
+.mujeresdepalabra #logo {
+    width: 300px;
+    position: absolute;
+    top: 100px;
+    left: 250px;
+}
+
+
+.mujeresdepalabra .parrafo {
+    position: absolute;
+    top: 90px;
+    left: 600px;
+    font-weight: var(--fw-thin);
+    
+}
+
+.mujeresdepalabra .parrafo span {
+    color: var( --clr-mujerespalabra);
+}
+
+.parrafo-mini {
+    display: flex;
+    flex-direction: row;
+}
+.parrafo-mini img {
+    height: 40px;
+    width: 50px;
+    margin-left: 5px;
+}
+
 /* fin - productos -pagina inicio */
+
 
 
 /* Footer */
