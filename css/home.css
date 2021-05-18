@@ -119,7 +119,7 @@ img {
     margin: 0 8em 0 8em;
 }
 .promotor img {
-    height: 400px;
+    height: 500px;
     width: auto;
 }
 .promotor-logo,
@@ -132,25 +132,26 @@ img {
     text-align: center;
 }
 .promotor-parrafo #p1 {
-    font-size: var(--fs-h3);
+    font-size: var(--fs-h2);
     margin-bottom: 2em;
 }
 .promotor-parrafo #p2 {
-    font-size: var(--fs-h3);
-    margin: 0;
-}
-.promotor-parrafo #p3 {
     font-size: var(--fs-h2);
     margin: 0;
 }
+.promotor-parrafo #p3 {
+    font-size: var(--fs-h1);
+    margin: 0;
+}
+
 span {
     font-weight: var(--fw-bold);
 }
 
-
+/* mujeresdepalabra */ 
 .mujeresdepalabra {
     position: relative;
-    margin-top: -100px;
+    margin-top: -80px;
     
 }
 .mujeresdepalabra #fondo{
@@ -167,23 +168,27 @@ span {
 
 .mujeresdepalabra .parrafo {
     position: absolute;
+    max-width: 500px;
     top: 90px;
     left: 600px;
     font-weight: var(--fw-thin);
     
 }
 
-.mujeresdepalabra .parrafo span {
-    color: var( --clr-mujerespalabra);
-}
 
 .parrafo-mini {
     display: flex;
     flex-direction: row;
 }
+
+.parrafo #span01{ color: var(--clr-mujerespalabra); }
+.parrafo #span02{ color: var(--clr-conserva-tactiva); }
+.parrafo #span03{ color: var(--clr-credito-individual); }
+.parrafo #span04{ color: var(--clr-seguros); }
+
 .parrafo-mini img {
     height: 40px;
-    width: 50px;
+    width: 70px;
     margin-left: 5px;
 }
 
