@@ -56,8 +56,9 @@ img {
     width: 100%;
 }
 
+/* Encabezado de logo y titulo*/
 .logo-conserva {
-    max-width: 800px;
+    max-width: 600px;
     margin: auto;
     text-align: center;
 }
@@ -67,7 +68,6 @@ img {
 .logo-conserva span { 
     color: var(--clr-rosa);
 }
-
 
 .mujeres-home-container {
     position: relative; 
@@ -85,6 +85,7 @@ img {
     background: rgba(230, 230,230, 0.5)
 }
 
+/* Cards de programas no financieros*/
 .ficha-programa {
     display: flex;
     flex-direction: column;
@@ -110,7 +111,6 @@ img {
     color: var(--clr-rosa);
     
 }
-
 
 /*  Productos -pagina inicio */
 
@@ -148,17 +148,17 @@ span {
     font-weight: var(--fw-bold);
 }
 
-/* mujeresdepalabra */ 
-.mujeresdepalabra {
+/* Producto(s) item */ 
+.producto-item {
     position: relative;
     margin-top: -80px;
     
 }
-.mujeresdepalabra #fondo{
+.producto-item #fondo{
     height: 300px;
     width: auto;
 }
-.mujeresdepalabra #logo {
+.producto-item #logo {
     width: 300px;
     position: absolute;
     top: 100px;
@@ -166,12 +166,12 @@ span {
 }
 
 
-.mujeresdepalabra .parrafo {
+.producto-item .parrafo {
     position: absolute;
     max-width: 500px;
     top: 90px;
     left: 600px;
-    font-weight: var(--fw-thin);
+    font-weight: var(--fw-regular);
     
 }
 
@@ -194,12 +194,68 @@ span {
 
 /* fin - productos -pagina inicio */
 
+/* Contacto info  */
+.contacto-container {
+    display: flex;        
+    margin: 2em 8em 4em 8em;
+    line-height: 1.5em;
+}
+
+.imagen-border {
+    display: flex;
+    position: relative;
+    margin: 0px 5px 0 5px;
+    border: 2px var(--clr-azul) solid;
+    height: 170px;
+    font-weight: var(--fw-regular);
+}
+
+
+.contacto-container #imagen-border01 {
+    min-width: 290px;
+}
+
+.contacto-container #imagen-border02 {
+    min-width: 250px;
+}
+.contacto-container #imagen-border03 {
+    min-width: 390px;
+}
+
+
+.imagen-border .texto01 {
+    padding: 10px 0 10px 20px;
+    width: 180px;
+}
+.imagen-border .texto02 {
+    padding: 10px 0 10px 20px;
+    width: 120px;
+}
+.imagen-border .texto03 {
+    padding: 5px 0 10px 20px;
+    width: 250px;
+}
+
+.imagen-border img {
+    position: absolute;
+    left: 50%;
+    z-index: -1;
+    width: auto;
+}
+
+.imagen-border #imagen-callcenter {
+    left: 66%;    
+}
+
+/* fin -> Contacto info*/
+
 
 
 /* Footer */
 .footer {
     background-color: var(--clr-gris);
     padding: 1em 1em;
+    border-top: 4px var(--clr-azul) solid;
 }
 
 .footer-top,
