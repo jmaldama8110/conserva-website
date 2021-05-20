@@ -1,0 +1,44 @@
+
+
+.nosotros {
+    margin: 0 10em 0 10em;
+}
+
+.nosotros img {
+    width: 150px;
+}
+
+.contenedorns {
+    display: flex;
+    align-items: center;
+}
+.logos-nosotros {
+ 
+}
+.texto-nosotros {
+    margin-left: 2em;
+}
+.contenedorns .texto-nosotros .textodescripcion {
+    font-weight: var(--fw-regular);
+    color: var(--clr-grisnosotros);
+    line-height: 1.3em;
+    text-align: justify;
+    margin-top: 0px;
+}
+.contenedorns .texto-nosotros .subtitulo {
+    font-weight: var(--fw-bold);
+    color: var(--clr-azul);
+    margin-bottom: 0px;
+}
+
+.contenedorns .texto-nosotros .subtitulo2 {
+
+    font-family: var(--ff-secondary);
+    font-size: var(--fs-h1);
+    color: var(--clr-grisnosotros);
+    margin-bottom: 0.3em;
+}
+.historia {
+    margin: 4em 8em 0em 10em;
+    
+}
