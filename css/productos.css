@@ -1,0 +1,91 @@
+.productos {
+    margin: 0 0em 0 0em;
+}
+
+.mujeres-depalabra .logoytexto {
+    display: flex;
+    padding: 1em 2em 1em 2em;
+}
+
+.logoytexto .imagen {
+    width: 50%;
+    
+}
+.logoytexto .parrafo{
+    
+    width: 50%;
+}
+.logoytexto .parrafo span{
+    color: var(--clr-mujerespalabra);
+}
+
+.mujeres-depalabra .logoytexto img{
+    max-width: 300px;
+}
+
+
+.cuerpoproducto {
+    
+    display: flex;
+    align-items: center;
+}
+
+.cuerpoproducto .descripcionproducto{    
+    line-height: 3em;
+}
+
+.cuerpoproducto .descripcionproducto{
+    font-weight: var(--fw-regular);    
+}
+.cuerpoproducto .descripcionproducto #descp1{ margin-left: -2em; line-height: 1em; }
+.cuerpoproducto .descripcionproducto #descp2{ margin-left: 0.1em }
+
+.cuerpoproducto .descripcionproducto #descp3{ 
+        margin-left: 0.2em;
+        line-height: 1em;
+}
+
+.cuerpoproducto .descripcionproducto #descp4{ margin-left: -1em }
+.cuerpoproducto .descripcionproducto #descp5{ margin-left: -2em }
+
+.cuerpoproducto .descripcionproducto h5{
+    color: black;
+    font-weight: var(--fw-thin);
+    line-height: 1em;
+    margin: 0;
+    padding: 0;
+}
+.cuerpoproducto .descripcionproducto span{
+    color: var(--clr-mujerespalabra);
+    
+}
+
+.cuerpoproducto .imagenproducto {
+    width: 50%;
+    
+}
+
+.requisitoslista {
+    border: 1px var(--clr-mujerespalabra) solid;
+    position: relative;
+}
+
+.requisitoslista img{
+    max-width: 50px;
+    margin-left: 0  em;
+}
+
+.requisitoslista p{
+    position: absolute;
+    top: 0;
+    left: 4em;
+}
+.requisitoslista ul{
+    padding: 0 0 0 1em;
+    font-weight: var(--fw-thin);
+    color: black;
+    font-size: 0.8em;
+    line-height: 2em;
+}
+
+
