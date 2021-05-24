@@ -9,10 +9,9 @@
 
 .logoytexto .imagen {
     width: 50%;
-    
+    text-align: center;
 }
 .logoytexto .parrafo{
-    
     width: 50%;
 }
 .logoytexto .parrafo span{
@@ -37,7 +36,7 @@
 .cuerpoproducto .descripcionproducto{
     font-weight: var(--fw-regular);    
 }
-.cuerpoproducto .descripcionproducto #descp1{ margin-left: -2em; line-height: 1em; }
+.cuerpoproducto .descripcionproducto #descp1{ margin-left: -1em; line-height: 1em; }
 .cuerpoproducto .descripcionproducto #descp2{ margin-left: 0.1em }
 
 .cuerpoproducto .descripcionproducto #descp3{ 
@@ -45,8 +44,8 @@
         line-height: 1em;
 }
 
-.cuerpoproducto .descripcionproducto #descp4{ margin-left: -1em }
-.cuerpoproducto .descripcionproducto #descp5{ margin-left: -2em }
+.cuerpoproducto .descripcionproducto #descp4{ margin-left: 0em }
+.cuerpoproducto .descripcionproducto #descp5{ margin-left: -1em }
 
 .cuerpoproducto .descripcionproducto h5{
     color: black;
@@ -88,4 +87,12 @@
     line-height: 2em;
 }
 
-
+.beneficiosproducto {
+    text-align: center;
+}
+.beneficiosproducto p{
+    border: 1px greenyellow solid;
+}
+.beneficiosproducto img{
+    max-width: 100px;
+}
