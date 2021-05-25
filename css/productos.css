@@ -89,10 +89,38 @@
 
 .beneficiosproducto {
     text-align: center;
+    margin: 4em 4em 0em 4em;
+    
 }
 .beneficiosproducto p{
-    border: 1px greenyellow solid;
+    font-weight: var(--fw-regular);
+    line-height: 1em;
+}
+.beneficiosproducto p span,h3 {
+    color: var(--clr-mujerespalabra);
+    
 }
 .beneficiosproducto img{
     max-width: 100px;
 }
+
+.beneficiosgrid {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 40% 60%;
+    grid-gap: 1em;
+    text-align: justify;
+    font-weight: var(--fw-thin);
+    font-size: 1em;
+    color: var(--clr-grisnosotros);
+}
+.beneficiosgrid img{
+    max-width: 100%;
+}
+
+.beneficiosgrid #gridcel02 {
+    grid-column: 2 / 3;
+   grid-row: 1 / 3;
+   
+}
+
