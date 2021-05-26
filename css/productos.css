@@ -2,7 +2,11 @@
     margin: 0 0em 0 0em;
 }
 
-.mujeres-depalabra .logoytexto {
+.productos .productocontainer{
+    margin: 4em 0 4em 0;
+}
+
+.productocontainer .logoytexto {
     display: flex;
     padding: 1em 2em 1em 2em;
 }
@@ -12,13 +16,25 @@
     text-align: center;
 }
 .logoytexto .parrafo{
-    width: 50%;
+    width: 40%;
 }
+
+#producto-mujeres-depalabra
 .logoytexto .parrafo span{
     color: var(--clr-mujerespalabra);
 }
 
-.mujeres-depalabra .logoytexto img{
+#producto-conserva-tactiva
+.logoytexto .parrafo span{
+    color: var(--clr-conserva-tactiva);
+}
+#producto-credito-individual
+.logoytexto .parrafo span{
+    color: var(--clr-credito-individual);
+}
+
+
+.productocontainer .logoytexto img{
     max-width: 300px;
 }
 
@@ -54,18 +70,38 @@
     margin: 0;
     padding: 0;
 }
+
+#producto-mujeres-depalabra
 .cuerpoproducto .descripcionproducto span{
-    color: var(--clr-mujerespalabra);
-    
+    color: var(--clr-mujerespalabra);    
 }
+#producto-conserva-tactiva
+.cuerpoproducto .descripcionproducto span{
+    color: var(--clr-conserva-tactiva);    
+}
+#producto-credito-individual
+.cuerpoproducto .descripcionproducto span{
+    color: var(--clr-credito-individual);    
+}
+
 
 .cuerpoproducto .imagenproducto {
     width: 50%;
-    
 }
 
+#producto-mujeres-depalabra
 .requisitoslista {
     border: 1px var(--clr-mujerespalabra) solid;
+    position: relative;
+}
+#producto-conserva-tactiva
+.requisitoslista {
+    border: 1px var(--clr-conserva-tactiva) solid;
+    position: relative;
+}
+#producto-credito-individual
+.requisitoslista {
+    border: 1px var(--clr-credito-individual) solid;
     position: relative;
 }
 
@@ -79,6 +115,21 @@
     top: 0;
     left: 4em;
 }
+
+#producto-mujeres-depalabra
+.requisitoslista p {
+    color: var(--clr-mujerespalabra);
+}
+#producto-conserva-tactiva
+.requisitoslista p {
+    color: var(--clr-conserva-tactiva);
+}
+#producto-credito-individual
+.requisitoslista p {
+    color: var(--clr-credito-individual);
+}
+
+
 .requisitoslista ul{
     padding: 0 0 0 1em;
     font-weight: var(--fw-thin);
@@ -96,12 +147,32 @@
     font-weight: var(--fw-regular);
     line-height: 1em;
 }
-.beneficiosproducto p span,h3 {
+
+/* .beneficiosproducto p span,h3 {
     color: var(--clr-mujerespalabra);
-    
+} */
+#producto-mujeres-depalabra
+.beneficiosproducto h3,
+#producto-mujeres-depalabra 
+.beneficiosproducto span {
+    color: var(--clr-mujerespalabra);
 }
+#producto-conserva-tactiva
+.beneficiosproducto h3,
+#producto-conserva-tactiva 
+.beneficiosproducto span {
+    color: var(--clr-conserva-tactiva);
+}
+#producto-credito-individual
+.beneficiosproducto h3,
+#producto-credito-individual 
+.beneficiosproducto span {
+    color: var(--clr-credito-individual);
+}
+
 .beneficiosproducto img{
-    max-width: 100px;
+    height: 80px;
+    width:auto;
 }
 
 .beneficiosgrid {
@@ -114,8 +185,10 @@
     font-size: 1em;
     color: var(--clr-grisnosotros);
 }
+
 .beneficiosgrid img{
-    max-width: 100%;
+    width: 100%;
+    height: auto;   
 }
 
 .beneficiosgrid #gridcel02 {
