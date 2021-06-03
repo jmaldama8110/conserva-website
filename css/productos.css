@@ -86,7 +86,8 @@
 
 
 .cuerpoproducto .imagenproducto {
-    width: 50%;
+    max-width: 300px;
+    min-width: 100px;
 }
 
 #producto-mujeres-depalabra

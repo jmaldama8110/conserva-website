@@ -431,3 +431,14 @@ span {
 }
 /* end of hamburguer */
 
+
+.enconstruccion {
+    margin: 0 4em 0 4em;
+    line-height: 3em;
+    text-align: center;
+
+}
+.enconstruccion img {
+    max-width: 200px;
+    width: 100%;
+}
