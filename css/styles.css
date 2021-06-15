@@ -289,9 +289,8 @@ span {
 
 .logomini,
 .sloganmini {
-    height: 70px;
+    height: 100px;
     width: auto;
-    
 }
 
 .footer-navbar ul {
@@ -327,6 +326,15 @@ span {
     text-align: justify;
     margin: 0 4em 0 4em;
 }
+
+.buroinfo {
+    display: flex;
+}
+.buroinfo img {
+    margin-right: 1em;  
+}
+
+
 
 /*  footer */
 
