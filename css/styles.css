@@ -330,8 +330,11 @@ span {
     font-weight: var(--fw-regular);
     text-align: justify;
     margin: 0 4em 0 4em;
+    
 }
-
+.politicaprivacidad #buro-entidades-link {
+    font-weight: var(--fw-semibold);
+}
 .buroinfo {
     display: flex;
 }
