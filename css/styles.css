@@ -122,9 +122,12 @@ img {
 
 /*  Productos -pagina inicio */
 
+.productos {
+    margin: 0 4em 0 4em;
+}
 .promotor {
     display: flex;
-    margin: 0 8em 0 8em;
+    
 }
 .promotor img {
     height: 500px;
@@ -210,9 +213,13 @@ span {
 /* Contacto info  */
 .contacto-container {
     display: flex;
-    flex-wrap: wrap;  
-    margin: 2em 2em 4em 2em;
+    flex-wrap: wrap;      
+    margin-top: 2em;
+    margin-bottom:  4em;
+    margin-left: 4em;
+    margin-right: auto;
     line-height: 1.5em;
+    
 }
 
 .imagen-border {
