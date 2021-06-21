@@ -9,6 +9,7 @@
 .productocontainer .logoytexto {
     display: flex;
     padding: 1em 2em 1em 2em;
+    
 }
 
 .logoytexto .imagen {
@@ -31,6 +32,10 @@
 #producto-credito-individual
 .logoytexto .parrafo span{
     color: var(--clr-credito-individual);
+}
+#producto-proteccion-conserva
+.logoytexto .parrafo span {
+    color: var(--clr-seguros);
 }
 
 
