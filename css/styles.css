@@ -277,6 +277,7 @@ span {
     background-color: var(--clr-gris);
     padding: 1em 1em;
     border-top: 4px var(--clr-azul) solid;
+    
 }
 
 .footer-top,
@@ -287,7 +288,13 @@ span {
 
 }
 
-.footer-bottom,
+.footer-bottom {
+    display: flex;
+    justify-content: space-around;
+    max-width: 800px;
+    margin: auto;
+}
+
 .social-container {
     text-align: center;
     line-height: 0.1;
@@ -297,6 +304,22 @@ span {
 }
 .footer-bottom img {
     padding: 1em;
+}
+
+.footer-bottom .condusef-info p {
+    max-width: 500px;
+    min-width: 300px;
+    line-height: 1em;
+    margin: 4px 4px;
+    font-size: 12px;
+}
+.footer-bottom .une-info {
+    min-width: 150px;
+    font-size: 14px;
+}
+
+.footer-bottom .condusef-info-name {
+    font-weight: bolder;
 }
 
 .logomini,
