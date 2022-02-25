@@ -322,6 +322,9 @@ span {
     height: 100px;
     width: auto;
 }
+.logocondusef {
+    height: 200px;
+}
 
 .footer-navbar ul {
     display: flex;
