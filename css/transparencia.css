@@ -1,0 +1,28 @@
+
+
+.transparencia {
+    margin: 0 10em 10em 10em;
+}
+
+.contenedor-trans {
+    display: flex;
+    align-items: center;
+}
+
+.texto-nosotros {
+    margin-left: 2em;
+}
+.contenedor-trans .texto-nosotros .textodescripcion {
+    font-weight: var(--fw-regular);
+    color: var(--clr-grisnosotros);
+    line-height: 1.3em;
+    text-align: justify;
+    margin-top: 0px;
+}
+.contenedor-trans .texto-nosotros .subtitulo {
+    font-weight: var(--fw-bold);
+    color: var(--clr-azul);
+    margin-bottom: 0px;
+
+}
+
